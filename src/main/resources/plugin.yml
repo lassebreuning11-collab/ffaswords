@@ -1,0 +1,14 @@
+name: FFASwords
+main: de.ffa.swords.FFASwords
+version: 1.0.0
+api-version: '1.21'
+description: Custom FFA Swords
+commands:
+  ffaswords:
+    description: Gibt dir die Custom FFA Swords
+    usage: /ffaswords give <dash|strike|lifesteal|poison|warden|all> [spieler]
+    aliases: [ffasword, fs]
+    permission: ffaswords.give
+permissions:
+  ffaswords.give:
+    default: op
